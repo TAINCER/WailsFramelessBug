@@ -1,0 +1,20 @@
+{
+  "name": "FramelessBug",
+  "assetdir": "frontend/src",
+  "frontend:build": "",
+  "frontend:install": "",
+  "frontend:dev": "",
+  "wailsjsdir": "./frontend",
+  "version": "2",
+  "Path": "",
+  "BuildDir": "",
+  "outputfilename": "FramelessBug.exe",
+  "OutputType": "",
+  "Platform": "",
+  "Author": {
+    "name": "Timm Ortloff",
+    "email": "me@tortloff.de"
+  },
+  "debounceMS": 100,
+  "devserverurl": "http://localhost:34115"
+}

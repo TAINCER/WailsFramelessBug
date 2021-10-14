@@ -1,0 +1,33 @@
+<html>
+
+<head>
+  <title>FramelessBug</title>
+  <link rel="stylesheet" href="/main.css">
+</head>
+
+<body>
+  <div>
+    <h1>Events called with JS Runtime</h1>
+    <button id="js-close">Close</button>
+    <button id="js-maximize">Maximize</button>
+    <button id="js-unmaximize">Un-Maximize</button>
+    <button id="js-minimize">Minimize</button>
+  </div>
+
+  <div>
+    <h1>Events called with Go Runtime</h1>
+    <button id="go-close">Close</button>
+    <button id="go-maximize">Maximize</button>
+    <button id="go-unmaximize">Un-Maximize</button>
+    <button id="go-minimize">Minimize</button>
+  </div>
+
+  <div>
+    <h1>Moveable Element</h1>
+    <div data-wails-drag class="movableElement"></div>
+  </div>
+
+  <script src="/main.js"></script>
+</body>
+
+</html>
